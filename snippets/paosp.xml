@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="paosp"
+           fetch="https://github.com/PAOSP-R"
+           revision="refs/heads/paosp-r" />
+
+  <!-- PAOSP -->
+  <project path="manifest" name="manifest" remote="paosp"/>
+  <project path="frameworks/base" name="frameworks_base" remote="paosp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="paosp" />
+  <project path="vendor/paosp" name="vendor_paosp" remote="paosp"/>
+
+</manifest>
